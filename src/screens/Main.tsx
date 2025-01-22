@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, StyleSheet} from 'react-native';
+import {View, StyleSheet, StatusBar} from 'react-native';
 import {MyComponent} from '../components';
 
 export interface Item {
@@ -20,6 +20,7 @@ export default function Main() {
 
   return (
     <View style={styles.container}>
+      <StatusBar barStyle="light-content" backgroundColor="#2C3E50" />
       <MyComponent data={data} />
     </View>
   );

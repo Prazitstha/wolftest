@@ -81,7 +81,6 @@ const MyComponent: React.FC<MyComponentProps> = ({data}) => {
 
   return (
     <View style={styles.container}>
-      <StatusBar barStyle="light-content" backgroundColor="#2C3E50" />
       <View style={styles.header}>
         <Text style={styles.headerTitle}>Item Selector</Text>
       </View>
